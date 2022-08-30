@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/form.css">
+
+  <title>Lab Test</title>
+</head>
+<body>
+  <nav class="navbar">
+    <button class="link-btn">
+      <a href="Homepage.html">Home</a>
+    </button>
+    <button>
+      Our medicines
+      <div class="dropdown-content">
+        <a href="#">Fever</a>
+        <a href="#">Muscle Pains</a>
+        <a href="#">Cold and Cough</a>
+      </div>
+    </button>
+    <button>
+      Health Care
+      <div class="dropdown-content">
+        <a href="#">Baby Care</a>
+        <a href="#">Skin Care</a>
+        <a href="#">Home Care</a>
+        <a href="#">Personal Care</a>
+        <a href="#">Pet Care</a>
+      </div>
+    </button>
+    <button class="link-btn">
+      <a href="labtest.html">Lab Test</a>
+    </button>
+  </nav>
+  <div class="labtest-grid">
+    <form class="labtest-form">
+      <div>
+        <h3>1. Your Contact Details</h3>
+        <div class="labtest-choice-grid">
+          <label>
+            <input class="form-input" placeholder="Full Name">
+          </label>
+          <label>
+            <input class="form-input" placeholder="Patient ID, if exists">
+          </label>
+          <label>
+            <input class="form-input" placeholder="Contact Number">
+          </label>
+          <label>
+            <input class="form-input" placeholder="Email ID">
+          </label>
+        </div>
+      </div>
+      <div>
+        <h3>2. Address</h3>
+        <div class="labtest-choice-grid">
+          <label>
+            <input class="form-input" placeholder="House No.">
+          </label>
+          <label>
+            <input class="form-input" placeholder="Street">
+          </label>
+          <label>
+            <input class="form-input" placeholder="Area">
+          </label>
+          <label>
+            <select class="form-input">
+              <option>District</option>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+              <option>D</option>
+              <option>E</option>
+            </select>
+
+          </label>
+        </div>
+
+      </div>
+
+      <div class="one-grid">
+        <h3>3. Choose atleast one test type</h3>
+        <label>
+          <input type="checkbox">
+          CBC
+        </label>
+        <label>
+          <input type="checkbox">
+          Complete Urine
+        </label>
+        <label>
+          <input type="checkbox">
+          Lipid Profile
+        </label>
+        <label>
+          <input type="checkbox">
+          Thyroid Stimulating Hormone (TSH)
+        </label>
+        <label>
+          <input type="checkbox">
+          Glucose Test
+        </label>
+
+      </div>
+      <div class="one-grid">
+        <h3>4. Do you want hardcopy of report?</h3>
+        <label>
+          <input type="radio" name="harcopy-choice">
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="harcopy-choice">
+          No
+        </label>
+
+      </div>
+      <div>
+        <h3>Select your comfortable date and time</h3>
+        <div class="date-time-picker">
+          <label>
+            <input type="datetime-local">
+          </label>
+        </div>
+      </div>
+      <div class="form-btn">
+        <button class="form-reset" type="reset" value="Reset">Reset</button>
+        <button class="form-submit" type="submit" value="Submit">Submit</button>
+        
+      </div>
+
+    </form>
+    <img src="images/Lab-Test/lab-test.jpg" alt="Lab Test Image">
+  </div>
+  <footer class="page-footer">
+    @Copyright. Only for demonstration purposes
+  </footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.labtest-form {
+    margin: 10px;
+}
+
+.labtest-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.labtest-grid > img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: sticky;
+    top: 0
+}
+
+.labtest-choice-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.form-input {
+    width: 100%;
+    border-width: 0;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+
+.one-grid  {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(25px, auto);
+}
+
+.date-time-picker > label > input {
+    padding: 5px;
+    height: 20%;
+    width: 50%;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    gap: 40px;
+}
+
+.form-btn > button {
+    padding: 10px;
+}
+
+.form-submit {
+    background: palevioletred;
+    color: white;
+}
+
+.form-reset {
+    background: palevioletred;
+    color: white;
+}
